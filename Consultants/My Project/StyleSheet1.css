@@ -1,0 +1,194 @@
+﻿
+@font-face {
+    font-family: 'AvertaW01';
+    src: url('AvertaW01-Regular.eot');
+    src: local('Averta W01 Regular'), local('AvertaW01-Regular'), url('AvertaW01-Regular.eot?#iefix') format('embedded-opentype'), url('AvertaW01-Regular.woff') format('woff'), url('AvertaW01-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, input, button {
+    font-family: 'AvertaW01';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: green;
+}
+
+a {
+    color: blue;
+}
+
+.rcorners1 {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: #666 0px 2px 3px;
+    overflow: hidden;
+}
+
+.AllDaysSelectClassTime {
+    font-size: 18px;
+    font-family: Averta, verdana, serif;
+    /*font-family: 'Impact', cursive; */
+}
+
+​
+
+.LeaveDetailsSelectClassTime {
+    font-size: 18px;
+    font-family: Averta, verdana, serif;
+    /*font-family: 'Impact', cursive; */
+}
+
+​
+
+.alldaysleftgrid {
+    background-color: white border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: gray;
+}
+
+.alldaysrightgrid {
+    background-color: white border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: gray;
+}
+
+.alldaysWeekDayBanner {
+    background-color: white border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: gray;
+}
+
+
+.T1ButtonOpen {
+    background: #00ae4d;
+    background-image: -webkit-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -moz-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -ms-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -o-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: linear-gradient(to bottom, #00ae4d, #00ae4e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #666666;
+    color: white;
+    font-size: 14px;
+    background: #00Ae4d;
+    padding: 8px 20px 8px 20px;
+    font-family: AvertaW01;
+    font-weight: normal;
+    font-style: normal;
+}
+
+    .T1ButtonOpen:hover {
+        background: #03f06a;
+        text-decoration: none;
+        color: black;
+    }
+
+.T1ButtonNew {
+    background: #00ae4d;
+    background-image: -webkit-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -moz-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -ms-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -o-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: linear-gradient(to bottom, #00ae4d, #00ae4e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: "Averta", Georgia, serif;
+    color: white;
+    font-size: 14px;
+    background: #00Ae4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'AvertaW01';
+    font-weight: normal;
+    font-style: normal;
+}
+
+    .T1ButtonNew:hover {
+        background: #03f06a;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+.ButtonSmall {
+    background: #00ae4d;
+    background-image: -webkit-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -moz-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -ms-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: -o-linear-gradient(top, #00ae4d, #00ae4e);
+    background-image: linear-gradient(to bottom, #00ae4d, #00ae4e);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: "Averta", Georgia, serif;
+    color: white;
+    font-size: 10px;
+    background: #00Ae4d;
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    font-family: AvertaW01;
+    font-weight: normal;
+    font-style: normal;
+}
+
+    .ButtonSmall:hover {
+        background: #03f06a;
+        text-decoration: none;
+        color: black;
+    }
+
+    .ButtonSmall:disabled,
+    button[disabled] {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+    }
+
+.textboxsize {
+    font-size: 25px;
+}
+
+input, SELECT, OPTION {
+    font-family: Averta, verdana, serif;
+    padding: 1px;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    border: outset 1px #adff2f; /*for demonstration only*/
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
